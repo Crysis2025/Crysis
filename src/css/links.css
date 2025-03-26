@@ -1,0 +1,74 @@
+/* Reset básico para remover margens e paddings padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definições básicas de estilo para o corpo */
+body {
+    background-color: #000;
+    height: 100vh;
+    font-family: 'Arial', sans-serif; /* Definindo uma fonte limpa */
+    color: #fff; /* Cor de texto legível */
+    font-family: Courier;
+}
+h1 {
+    text-align: center;
+}
+h2{
+    margin-left: 2vw;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 5vw;
+}
+
+a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #007bff; /* Cor dos links */
+    font-size: 1.1em;
+}
+
+a:hover {
+    color: #0056b3; /* Cor dos links ao passar o mouse */
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+/* Espaçamento entre os itens da lista */
+ul li {
+    margin: 10px 0;
+}
+
+/* Títulos e espaçamentos */
+h1 {
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 5vh;
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+ul li{
+    font-size: 1em; 
+}
+
+@media only screen and (max-width: 900px) {
+    h1{
+        font-size: 3em;
+        margin: 5vw 0vh;
+    }
+    h2{
+        font-size: 2em;
+        margin: 5vw 2vh;
+    }
+    ul{
+        font-size: 0.8em;
+        margin-left: 8vw;
+    }
+}
